@@ -1,0 +1,109 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.subtitle-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+}
+
+.inputs-wrap {
+  font-size: 13px;
+
+  label {
+    display: block;
+    margin-right: 10px;
+  }
+}
+
+.time-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  .textarea {
+    width: 100%;
+    padding: 12px 10px;
+    resize: none;
+    border: 1px solid #9f9f9f;
+    border-radius: 4px;
+  }
+}
+
+.time-input {
+  display: flex;
+  align-items: center;
+
+  input {
+    border: 1px solid #9f9f9f;
+    padding: 4px;
+    border-radius: 4px;
+  }
+}
+
+
+.btn-add {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-self: flex-end;
+}
+
+.subtitle-list {
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid #cecece;
+
+  h2 {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.subtitle-item {
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.timeline {
+  color: #9f9f9f;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.sub-text {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+
+
+.generate-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.generate-button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
