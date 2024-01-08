@@ -35,19 +35,6 @@ export const Main = () => {
           {isCSR && (
             <ReactPlayer
               url={`/assets/video.mp4`}
-              config={{
-                file: {
-                  tracks: [
-                    {
-                      kind: 'subtitles',
-                      src: '/assets/captions.vtt',
-                      srcLang: 'ko',
-                      default: true,
-                      label: 'ko',
-                    },
-                  ],
-                },
-              }}
               width='100%'
               height={'100%'}
               ref={playerRef}
@@ -55,8 +42,10 @@ export const Main = () => {
               muted={true}
               controls={true}
               loop={true}
+              className={'react-player'}
             />
           )}
+          <p className={cx('subtitle-inline')}>지막 테스트 </p>
         </div>
         <button
           className={cx('btn-add-subtitle')}
